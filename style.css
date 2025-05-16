@@ -1,0 +1,48 @@
+body {
+  background: #f2d5bb;
+}
+header {
+  border-bottom: 1px solid lightgrey;
+  padding: 0 0 30px 0;
+}
+main {
+  padding: 30px 0;
+}
+footer {
+  border-top: 1px solid lightgrey;
+  padding: 0 0 30px 0;
+  text-align: center;
+  font-size: 14px;
+  padding: 30px 0 0 0;
+}
+a {
+  color: #7ab8bf;
+}
+.app {
+  width: 750px;
+  background: white;
+  margin: 30px auto;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 30px 50px #d4baa3;
+}
+.search {
+  background: lightgrey;
+  width: 80%;
+  margin: 25px 0 25px 25px;
+  border: none;
+  border-radius: 8px;
+  padding: 15px 20px;
+  font-size: 15px;
+}
+.submit {
+  background: #7ab8bf;
+  padding: 15px 20px;
+  border: 1px solid #7ab8bf;
+  border-radius: 8px;
+  color: white;
+}
+.current-weather {
+  display: flex;
+  justify-content: space-between;
+}
