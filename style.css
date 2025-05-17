@@ -46,3 +46,33 @@ a {
   display: flex;
   justify-content: space-between;
 }
+.weather-app-city {
+  margin: 0;
+  font-size: 38px;
+  line-height: 48px;
+}
+.weather-app-details {
+  font-size: 16px;
+  line-height: 20px;
+  color: lightgrey;
+  font-weight: 500;
+}
+.weather-app-details strong {
+  color: #f2ad94;
+}
+.current-app-temp {
+  display: flex;
+}
+.weather-app-temp {
+  font-size: 88px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+.weather-app-unit {
+  margin-top: 20px;
+  font-size: 28px;
+}
+.weather-icon {
+  font-size: 44px;
+  margin-top: 16px;
+}
